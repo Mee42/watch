@@ -1,0 +1,53 @@
+AR checking written on:
+'/home/carson/projects/watch/pcb/watch/watch_AR-Check.txt'
+'action_menu_annular_check.py'
+version = 1.7.2
+Testing PCB for Annular Rings
+TH Pads >= 0.125 Vias >= 0.125
+PHD margin on PTH = 0
+
+AR Via violation of 0.05 at XY 8.1,-3.65
+AR Via violation of 0.05 at XY 8.4,-1.525
+AR Via violation of 0.05 at XY 7.05,-5.7
+AR Via violation of 0.05 at XY -9.45,1.275
+AR Via violation of 0.05 at XY 9.55,-1.3
+AR Via violation of 0.05 at XY 1.325,9.55
+AR Via violation of 0.05 at XY -1.284785,-9.784785
+AR Via violation of 0.05 at XY -6.0,-7.85
+AR Via violation of 0.05 at XY -7.8,6.0
+AR Via violation of 0.05 at XY 6.2,7.975
+AR Via violation of 0.05 at XY 7.971068,-6.171068
+AR Via violation of 0.05 at XY -8.875,-3.7
+AR Via violation of 0.05 at XY 3.95,-9.325
+AR Via violation of 0.05 at XY -3.9,9.3
+AR Via violation of 0.05 at XY 9.3,3.9
+AR Via violation of 0.05 at XY -6.25,6.75
+AR Via violation of 0.05 at XY -4.75,7.95
+AR Via violation of 0.05 at XY -6.05,9.325
+AR Via violation of 0.05 at XY -0.725,-11.9
+AR Via violation of 0.05 at XY 7.15,8.65
+AR Via violation of 0.05 at XY 11.296766,-4.4
+AR Via violation of 0.05 at XY -11.604874,-2.904874
+AR Via violation of 0.05 at XY 9.2,-6.55
+AR Via violation of 0.05 at XY 8.9,6.35
+AR Via violation of 0.05 at XY -3.8,11.5
+AR Via violation of 0.05 at XY -12.025,-0.075
+AR Via violation of 0.05 at XY -3.7,-11.60826
+AR Via violation of 0.05 at XY 6.875,-8.425
+AR Via violation of 0.05 at XY -11.6,3.0
+AR Via violation of 0.05 at XY -5.95,-9.3
+AR Via violation of 0.05 at XY -0.75,11.15
+AR Via violation of 0.05 at XY 11.1,4.475
+AR Via violation of 0.05 at XY 11.85,1.525
+AR Via violation of 0.05 at XY 2.25,11.75
+AR Via violation of 0.05 at XY 5.125,-10.925
+AR Via violation of 0.05 at XY -10.541434,5.8
+AR Via violation of 0.05 at XY -8.7,-8.225
+AR Via violation of 0.05 at XY -6.95,8.35
+AR Via violation of 0.05 at XY -8.75,8.25
+AR Via violation of 0.05 at XY -1.175,10.3
+AR Via violation of 0.05 at XY 2.325,-12.3
+AR Via violation of 0.05 at XY -9.6,-6.85
+VIAS that Pass = 0; Fails = 42
+TH PADS that Pass = 0; Fails = 0
+NPTH PADS that Pass = 0; Fails = 0
