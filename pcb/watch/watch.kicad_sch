@@ -2224,6 +2224,11 @@
     (effects (font (size 4 4)) (justify left bottom))
     (uuid dc96936c-4d8a-464a-b9f2-8bac00065562)
   )
+  (text "LCSC:  C965796 for white LEDS. V_f = 2.6-2.8\nLCSC:  C965790 for red   LEDS. V_f = 1.9-2.1"
+    (at 44.45 92.71 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f061803c-0fd1-41a0-a5d2-fa67924b00e8)
+  )
 
   (label "LED7" (at 133.35 55.88 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
