@@ -70,7 +70,7 @@
   (pad "31" smd roundrect (at -1.25 -2.4375) (size 0.25 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8fa97510-3106-4102-a34c-5f6a7e9d096b))
   (pad "32" smd roundrect (at -1.75 -2.4375) (size 0.25 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ecb4ca65-3e6e-4bc0-9281-ea79989b38da))
   (pad "33" smd rect (at 0 0) (size 3.5 3.5) (layers "F.Cu" "F.Mask") (tstamp 7f31a462-5a1c-4a26-a724-44a97861530b))
-  (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UFQFPN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm.wrl"
+  (model "/home/carson/projects/watch/pcb/CAD models/UFQFPN-32.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
