@@ -22,4 +22,9 @@
     (primitives
       (gr_circle (center 0 0) (end 5 0) (width 5) (fill none))
     ) (tstamp 57cfcc07-87bb-4084-b22e-9c5b3ffe581a))
+  (model "/home/carson/projects/watch/pcb/CAD models/CR2032/CR2032.step"
+    (offset (xyz 0 0 3.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0))
+  )
 )
