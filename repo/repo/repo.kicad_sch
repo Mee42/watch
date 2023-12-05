@@ -1,0 +1,129 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9fa23a82-e6b2-43f0-aeaa-bf42ed5eba6d)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:Battery_Cell" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "BT" (at 2.54 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Battery_Cell" (at 2.54 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 1.524 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 1.524 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "battery cell" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Single-cell battery" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Battery_Cell_0_1"
+        (rectangle (start -2.286 1.778) (end 2.286 1.524)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start -1.524 1.016) (end 1.524 0.508)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 0.762)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.778)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 3.048)
+            (xy 1.778 3.048)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 3.556)
+            (xy 1.27 2.54)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Battery_Cell_1_1"
+        (pin passive line (at 0 5.08 270) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (no_connect (at 26.67 31.75) (uuid 1f05136c-bd0b-4f0b-a058-a32ccd459a2b))
+  (no_connect (at 30.48 19.05) (uuid c5044367-e3b8-4cd0-82be-5bb1ca59e882))
+
+  (wire (pts (xy 26.67 19.05) (xy 30.48 19.05))
+    (stroke (width 0) (type default))
+    (uuid 4b30f492-c740-4527-89d2-daf277adcd46)
+  )
+  (wire (pts (xy 26.67 24.13) (xy 26.67 19.05))
+    (stroke (width 0) (type default))
+    (uuid 5f794e2e-c8a7-4c2f-b159-b0ddda84d486)
+  )
+
+  (symbol (lib_id "Device:Battery_Cell") (at 26.67 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7f7152e4-7929-414d-9a37-617c747f994d)
+    (property "Reference" "BT1" (at 29.21 27.94 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LIR2032" (at 27.94 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "repo:LIR2032" (at 26.67 27.686 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 26.67 27.686 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5ef643a2-1f0e-43f4-b4e3-4d489c1c53a7))
+    (pin "2" (uuid ef4a6bec-fe2c-466d-ae60-98ee5235e1a4))
+    (instances
+      (project "watch"
+        (path "/384bae03-09dd-4efb-be29-3c4b1b1756d9"
+          (reference "BT1") (unit 1)
+        )
+      )
+      (project "repo"
+        (path "/9fa23a82-e6b2-43f0-aeaa-bf42ed5eba6d"
+          (reference "BT1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
